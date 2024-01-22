@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+a:hover{
+    color: #F49513;
+    transition: 0.5s ease;
+}
+.headingText{
+    font-family: 'Montserrat', sans-serif;
+}
+.paragraphText{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.bgc-black{
+    background-color: #05646F;
+    color: whitesmoke;
+}
+.nav-item .nav-link{
+    color: white;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #F49513;
+    transition: 0.5s;
+}
+.cardEffect{
+    transition: 0.5s;
+}
+.cardEffect:hover{
+    box-shadow: 0 2px 25px -5px !important;
+    transition: 0.5s;
+    border-color: #F49513 !important;
+}
+.servicebtn:hover{
+    background-color:#F49513 !important;
+    transition: 0.5s;
+}
+.servicebtn{
+    transition: 0.5s;
+}
+.section-1{
+    background-color: #217F73;
+    padding: 35px;
+    padding-bottom: 105px;
+}
+.section-2{
+    background-color: #F49513;
+    padding: 35px;
+}
+.callbacksection{
+    background-color: aliceblue;
+}
+.footer-two{
+    background-color: #3D3D3D;
+    color: #fff;
+}
+/*jssor slider bullet skin 132 css*/
+.jssorb132 {position:absolute;}
+.jssorb132 .i {position:absolute;cursor:pointer;}
+.jssorb132 .i .b {fill:#fff;fill-opacity:0.8;stroke:#000;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.7;}
+.jssorb132 .i:hover .b {fill:#000;fill-opacity:.7;stroke:#fff;stroke-width:2000;stroke-opacity:0.8;}
+.jssorb132 .iav .b {fill:#000;stroke:#fff;stroke-width:2400;fill-opacity:0.8;stroke-opacity:1;}
+.jssorb132 .i.idn {opacity:0.3;}
+
+/*jssor slider arrow skin 052 css*/
+.jssora052 {display:block;position:absolute;cursor:pointer;}
+.jssora052 .a {fill:none;stroke:#000;stroke-width:360;stroke-miterlimit:10;}
+.jssora052:hover {opacity:.8;}
+.jssora052.jssora052dn {opacity:.5;}
+.jssora052.jssora052ds {opacity:.3;pointer-events:none;}
