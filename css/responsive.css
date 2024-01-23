@@ -1,0 +1,26 @@
+@media (max-width: 1199.98px) {
+    .section-1{
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 991.98px) {
+    .section-1{
+        padding-bottom: 130px;
+    }
+}
+@media (max-width: 767.98px) {
+    .cpd{
+        padding-top: 15px;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .textcenter{
+        text-align: center;
+    }
+    .section-1{
+        padding-bottom: 30px;
+    }
+    .footer-two{
+        text-align: center;
+    }
+}
