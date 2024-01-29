@@ -259,3 +259,14 @@ $(document).ready(function() {
     }
   });
 });
+
+//fuel type
+$(document).ready(function() {
+  $("#fueltype").change(function() {
+    if ($(this).val() === "Other") {
+      $("#otherfuelType").slideDown();
+    } else {
+      $("#otherfuelType").slideUp();
+    }
+  });
+});
