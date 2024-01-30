@@ -1,0 +1,43 @@
+@media (max-width: 1199.98px) {
+    .section-1{
+        padding-bottom: 80px;
+    }
+}
+@media (max-width: 991.98px) {
+    .section-1{
+        padding-bottom: 130px;
+    }
+}
+@media (max-width: 767.98px) {
+    .cpd{
+        padding-top: 15px;
+    }
+ }
+ @media (max-width: 575.98px) { 
+    .textcenter{
+        text-align: center;
+    }
+    .section-1{
+        padding-bottom: 30px;
+    }
+    .footer-two{
+        text-align: center;
+    }
+    .title{
+        padding-top: 15px !important;
+        padding-bottom: 5px !important;
+    }
+    .mainforum{
+        padding-top: 25px !important;
+    }
+}
+@media (min-width: 992px) {
+    .section-1 {
+        padding-bottom: 105px;
+    }
+}
+@media (min-width: 1400px) { 
+    .section-1 {
+        padding-bottom: 80px;
+    }
+}
