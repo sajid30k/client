@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+body{
+    overflow-x: hidden;
+}
+html {
+    scroll-behavior: smooth;
+  }
+a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s ease;
+}
+a:hover{
+    color: #F49513;
+    transition: 0.5s ease;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.text-dark:hover{
+    color: #F49513 !important; 
+    transition: 0.5s ease;
+}
+.headingText{
+    font-family: 'Montserrat', sans-serif;
+}
+.paragraphText{
+    font-family: 'Titillium Web', sans-serif;
+
+}
+.color-text{
+    background: linear-gradient(to right, #217F73 0%, #7c631c 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.bgc-black{
+    background-color: #05646F;
+    color: whitesmoke;
+}
+.nav-item .nav-link{
+    color: white;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    color: #F49513;
+    transition: 0.5s;
+}
+.cardEffect{
+    transition: 0.5s;
+}
+.cardEffect:hover{
+    box-shadow: 0 2px 25px -5px !important;
+    transition: 0.5s;
+    border-color: #8C52FF !important;
+}
+.servicebtn:hover{
+    background-color:#F49513 !important;
+    transition: 0.5s;
+}
+.servicebtn{
+    transition: 0.5s;
+}
+.section-1{
+    background-color: #217F73;
+    padding: 35px;
+    padding-bottom: 105px;
+}
+.section-2{
+    background-color: #F49513;
+    padding: 35px;
+}
+.callbacksection{
+    background: #ECE9E6;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white !important;
+}
+.whyus-section{
+    background: #ECE9E6;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: black !important;
+}
+.footer-two{
+    background: #141E30;  /* fallback for old browsers */  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+}
+.footerAnimation{
+  transition: 0.5 ease;
+}
+.footerAnimation:hover{
+    padding-left: 10px;
+    transition: 0.5 ease; 
+}
+.insure-titel{
+    background-image: url(../img/backgraount.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.s-card{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 10px;
+}
+.title{
+    background-image: url(../img/backgraount.jpg);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.mainforum{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: aliceblue;
+    
+}
+.btn-check:checked + .btn {
+    background-color: #F49513;
+    color: #fff;
+}
+.radioColor{
+    background-color:#217F73;
+    color: #fff; 
+    transition: 0.5s
+}
+.radioColor:hover{
+    background-color: #F49513 !important ;
+    color: #FFFFFF !important;
+    transition: 0.5s;
+}
+.step{
+    text-align: center;
+    padding: 15px;
+    background-color: #217F73;
+    color: white;
+}
+.step-active{
+    text-align: center;
+    padding: 15px;
+    background-color: #F49513;
+    color: white;
+}
+/*jssor slider bullet skin 132 css*/
+/*jssor slider bullet skin 132 css*/
+.jssorb132 {position:absolute;}
+.jssorb132 .i {position:absolute;cursor:pointer;}
+.jssorb132 .i .b {fill:#fff;fill-opacity:0.8;stroke:#000;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.7;}
+.jssorb132 .i:hover .b {fill:#000;fill-opacity:.7;stroke:#fff;stroke-width:2000;stroke-opacity:0.8;}
+.jssorb132 .iav .b {fill:#000;stroke:#fff;stroke-width:2400;fill-opacity:0.8;stroke-opacity:1;}
+.jssorb132 .i.idn {opacity:0.3;}
+
+/*jssor slider arrow skin 052 css*/
+.jssora052 {display:block;position:absolute;cursor:pointer;}
+.jssora052 .a {fill:none;stroke:#000;stroke-width:360;stroke-miterlimit:10;}
+.jssora052:hover {opacity:.8;}
+.jssora052.jssora052dn {opacity:.5;}
+.jssora052.jssora052ds {opacity:.3;pointer-events:none;}
+
+/*FOR JS FILE*/
+#employmentdetails, #studentdetails {
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+
+#regAuto, #regManual {
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+.mod {
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+.carpurchasedBox{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#ukresident{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+.licenceTypedropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#licenceNumberMainID{
+    display: none;
+}
+#dateOfLicenceDropDown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#qualificationsdropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#readingdropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+.claimAndConvictoin{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#anotherAddressdropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#DeclinedInsurancedropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#ncdEarnDetails{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#ncdEarnAnotherCountry{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+#referrersnamedropdown{
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+    display: none;
+}
+.red{
+    color: #dd2121;
+}
+#otherAccidentType{
+    display: none;
+}
+#otherfuelType{
+    display: none;
+}
+#otherDvlsCodedropdwon{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+
+#datepicker{
+    opacity: 1 !important; /* Set opacity to 1 regardless of input value */
+  }
+#ncbfromOtherCar{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#otherLockTypeDropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#externalDoorLockDroopDown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#claimHistoryDropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+.correspondenceAddressdropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#liveupstairsdropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#alarmInpremisesdropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
+#ifrunningCafedropdown{
+    display: none;
+    padding: 10px;
+    border: 1px solid #57b797;
+    margin-top: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 1px 0px black;
+}
